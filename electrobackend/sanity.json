@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "sanity-amazona"
+    "name": "electro_backend"
   },
   "api": {
-    "projectId": "ptju5yb0",
+    "projectId": "1mbmfq8j",
     "dataset": "production"
   },
   "plugins": [

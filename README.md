@@ -108,3 +108,7 @@
         - connect it to gitub
         - add vercel domain to allow origin in sanity
         - publish result# sanity-ecomm
+
+https://electoecomm.sanity.studio/desk | backend
+
+https://sanity-ecomm.vercel.app/ | frontend
