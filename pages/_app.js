@@ -5,6 +5,7 @@ import { CacheProvider } from '@emotion/react';
 import { StoreProvider } from '../utils/Store';
 import { SnackbarProvider } from 'notistack';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+import { Analytics } from '@vercel/analytics/react';
 import Script from 'next/script';
 const clientSideEmotionCache = createCache({ key: 'css' });
 
@@ -36,6 +37,7 @@ function MyApp({
         <StoreProvider>
           <PayPalScriptProvider deferLoading={true}>
             <Component {...pageProps} />
+            <Analytics />
           </PayPalScriptProvider>
         </StoreProvider>
       </SnackbarProvider>
